@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+.App {
+    text-align: center;
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.App-logo {
+    pointer-events: none;
+    height: 10vh;
+    
+}
+
+.App-header {
+    
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.App .main-btn {
+    color: #fff;
+    background-color: #b61d18;
+    margin:2vh;
+    width: 40vh;
+    padding: 10px;
+    font-size: larger;
+}
+.question-container{
+    margin: auto;
+    width: 400px;
+    padding: 10px;
+}
+.App .question-container .input-grp{
+    margin-bottom: 10px;
+}
+.App .question-container .options-text{
+    font-size:12px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.App .question-container .question-buttons{
+    display:flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.App .card{
+    border: 2px solid rgb(212, 13, 6);
+    padding:5px;
+    margin:10px;
+}
